@@ -1,0 +1,15 @@
+{
+  "app": {
+    "name": "fps-mvp",
+    "version": "0.1.0"
+  },
+  "game": {
+    "moveSpeed": 6,
+    "mouseSensitivity": 0.002,
+    "eyeHeight": 2
+  },
+  "network": {
+    "serverUrl": "ws://localhost:2567",
+    "tickRate": 20
+  }
+}

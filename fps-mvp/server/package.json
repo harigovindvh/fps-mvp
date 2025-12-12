@@ -1,0 +1,24 @@
+{
+  "name": "fps-mvp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --tsconfig tsconfig.json src/index.ts"
+  },
+  "dependencies": {
+    "@colyseus/schema": "^3.0.70",
+    "@colyseus/ws-transport": "^0.16.5",
+    "colyseus": "^0.16.5",
+    "express": "^5.2.1"
+  },
+  "keywords": [],
+  "author": "Harigovind.vh",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.21.0"
+  }
+}
